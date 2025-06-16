@@ -1,0 +1,82 @@
+/* CheckSales.css */
+
+.check-sales-container {
+    padding: 20px;
+    background-color: #f5f5dc; /* Light cream/beige background for the entire page */
+    color: #333; /* Dark text for readability */
+    min-height: 100vh; /* Ensure the container takes full height */
+}
+
+h2 {
+    color: #8B4513; /* Brown color for headings */
+}
+
+.filter-container {
+    display: flex;
+    gap: 10px; /* Space between filter elements */
+    margin-bottom: 10px; /* Space below the filter container */
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #8B4513; /* Brown border */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Light background for inputs */
+    color: #333; /* Dark text for inputs */
+}
+
+input:focus, select:focus {
+    border-color: #6f4c3e; /* Darker brown on focus */
+    outline: none;
+ }
+ 
+
+.fetch-btn {
+    padding: 10px;
+    background-color: #8B4513; /* Brown background for button */
+    color: #f5f5dc; /* Light cream/beige text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s;
+}
+
+.fetch-btn:hover {
+    background-color: #6f4c3e; /* Darker brown on hover */
+}
+
+.message {
+    color: yellow; /* Color for messages */
+}
+
+.sales-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse; /* Collapse borders for table */
+    background-color: #f5f5dc; /* Light cream/beige background for table */
+    color: black; /* Dark text for table */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #8B4513; /* Brown border for table cells */
+}
+
+thead {
+    background-color: #8B4513; /* Brown background for table header */
+    color: #f5f5dc; /* Light cream/beige text for table header */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e6d8b8; /* Light beige for even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f5f5dc; /* Light cream/beige for odd rows */
+}
+
+th:nth-child(5), th:nth-child(6), th:nth-child(7),
+td:nth-child(5), td:nth-child(6), td:nth-child(7) {
+   text-align: right;
+}

@@ -1,0 +1,54 @@
+.view-customers-container {
+    padding: 20px;
+    background-color: #f5f5dc; /* Light cream/beige background */
+    color: #333; /* Dark brown text for readability */
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #8B4513; /* Brown heading */
+}
+
+/* Search Bar */
+.search-container {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.search-container input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #8B4513; /* Brown border */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Subtle transparency */
+    color: #333; /* Dark text */
+    text-align: center;
+}
+
+/* Customer Table */
+.customer-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #8B4513; /* Brown border */
+}
+
+thead {
+    background-color: #8B4513; /* Brown header */
+    color: #f5f5dc; /* Light cream text */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e6d8b8; /* Light beige */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f5f5dc; /* Light cream */
+}

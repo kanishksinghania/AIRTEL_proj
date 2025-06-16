@@ -1,0 +1,34 @@
+/* Sidebar.css */
+
+.sidebar-container {
+    width: 20%;
+    background-color: #f0e68c; /* Light mustard background */
+    color: #333; /* Dark text for readability */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.sidebar-title {
+    margin-bottom: 20px;
+    color: #8B4513; /* Brown color for the title */
+}
+
+.sidebar-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #8B4513; /* Brown background for buttons */
+    border: none; /* Remove border */
+    color: #f5f5dc; /* Light cream/beige text color */
+    font-weight: bold; /* Make text bold */
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.sidebar-btn:hover {
+    background-color: #6f4c3e; /* Darker brown on hover */
+    color: #f5f5dc; /* Keep text color light on hover */
+}

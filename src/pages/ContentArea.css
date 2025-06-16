@@ -1,0 +1,15 @@
+/* ContentArea.css */
+
+.content-area {
+    background-color: #f5f5dc; /* Light cream/beige background */
+    color: #333; /* Dark text for readability */
+    padding: 20px; /* Add some padding */
+    flex: 1; /* Allow it to take up available space */
+    min-height: calc(100vh - 40px); /* Adjust height to account for header/footer if needed */
+}
+
+.content-area h1 {
+    color: #8B4513; /* Brown color for headings */
+    font-weight: bold; /* Make headings bold */
+    margin: 0px 0; /* Space above and below headings */
+}

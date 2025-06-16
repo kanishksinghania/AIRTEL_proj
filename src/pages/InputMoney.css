@@ -1,0 +1,30 @@
+.input-money-container {
+    padding: 20px;
+    background-color: #f5f5dc;
+    color: #333;
+}
+
+h2 {
+    color: #8B4513;
+}
+
+.money-form input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+}
+
+.money-btn {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.money-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}

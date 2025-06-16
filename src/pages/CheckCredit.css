@@ -1,0 +1,78 @@
+/* CheckCredit.css */
+
+.check-credit-container {
+    padding: 20px;
+    background-color: #f5f5dc; /* Light cream/beige background */
+    color: #333; /* Dark text for readability */
+    min-height: 100vh; /* Ensure full page height */
+}
+
+h2 {
+    color: #8B4513; /* Brown color for headings */
+}
+
+/* Search and Filter Container */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #8B4513; /* Brown border */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #333; /* Dark text */
+    width: 200px;
+}
+
+/* Button Styling */
+.fetch-btn, .mark-paid-btn {
+    padding: 10px;
+    background-color: #8B4513; /* Brown background */
+    color: #f5f5dc; /* Light cream text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.fetch-btn:hover, .mark-paid-btn:hover {
+    background-color: #6f4c3e; /* Darker brown on hover */
+}
+
+/* Message Display */
+.message {
+    color: yellow;
+}
+
+/* Credit Sales Table */
+.credit-sales-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #f5f5dc;
+    color: black;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #8B4513; /* Brown border */
+}
+
+thead {
+    background-color: #8B4513; /* Brown header */
+    color: #f5f5dc; /* Light cream text */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e6d8b8; /* Light beige */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f5f5dc; /* Light cream */
+}

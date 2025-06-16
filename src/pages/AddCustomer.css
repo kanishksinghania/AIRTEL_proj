@@ -1,0 +1,60 @@
+.add-customer-container {
+    padding: 20px;
+    background-color: #f5f5dc; /* Light cream background */
+    color: #333; /* Dark text for readability */
+}
+
+h2 {
+    color: #8B4513; /* Brown heading */
+}
+
+.customer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between inputs */
+    max-width: 400px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #444;
+}
+
+.file-input-container {
+    display: flex;
+    gap: 10px;
+}
+
+.add-file-btn, .submit-btn {
+    padding: 10px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-file-btn:hover, .submit-btn:hover {
+    background-color: #6f4c3e;
+}
+
+.file-list {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f5f5dc;
+    border-radius: 5px;
+}
+
+.file-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.file-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}

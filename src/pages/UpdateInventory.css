@@ -1,0 +1,66 @@
+/* UpdateInventory.css - Styling for Update Inventory Page */
+
+.update-inventory-container {
+    padding: 20px;
+    background-color: #f5f5dc; /* Light cream/beige background */
+    color: #333; /* Dark text for readability */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Headings */
+h3 {
+    color: #8B4513; /* Brown color for headings */
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+.update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Input Fields */
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #8B4513; /* Brown border */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-size: 16px;
+}
+
+/* Buttons */
+.update-btn {
+    padding: 12px;
+    background-color: #FFA500; /* Orange (Indicates Update) */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.update-btn:hover {
+    background-color: #e69500; /* Darker Orange */
+}
+
+/* Messages */
+.message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.message.error {
+    color: red;
+}

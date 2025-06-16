@@ -1,0 +1,176 @@
+.checkout-container {
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.receipt-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.store-name {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.receipt-logo {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.receipt-slip {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.receipt-date {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.checkout-table {
+    width: 95%;  /* ✅ Slightly reduced width to add left & right margin */
+    border-collapse: collapse;
+    margin-top: 5px;
+    table-layout: fixed;
+    margin-left: auto;   /* ✅ Center the table */
+    margin-right: auto;  /* ✅ Center the table */
+}
+
+.checkout-table th, 
+.checkout-table td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+/* ✅ Adjusting column widths */
+.checkout-table th:nth-child(1) { width: 5%; }   /* S.No */
+.checkout-table th:nth-child(2) { width: 20%; }  /* Item Name */
+.checkout-table th:nth-child(3) { width: 15%; }  /* Fabric No */
+.checkout-table th:nth-child(4) { width: 15%; }  /* Quantity */
+.checkout-table th:nth-child(5) { width: 15%; }  /* Price */
+.checkout-table th:nth-child(6) { width: 15%; }  /* Total */
+.checkout-table th:nth-child(7) { width: 10%; }  /* Action */
+
+.checkout-table input[type="number"],
+.checkout-table input[type="text"],
+.checkout-table select {
+    width: 95%;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.checkout-btn {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.total-amount {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media print {
+    header, footer {
+        display: none !important;
+    }
+
+    @page {
+        size: A4 portrait;  /* ✅ Uses full A4 width */
+        margin: 10mm 0 0 0;  /* ✅ Added slight top margin */
+    }
+
+    .checkout-container {
+        width: 100%;
+        height: 148mm; /* ✅ Half of A4 height */
+        font-size: 16px;
+        font-weight: bold;
+        margin: auto;
+    }
+
+    .checkout-table {
+        width: 95%;  /* ✅ Leaves slight margins on left and right */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .checkout-table th,
+    .checkout-table td {
+        font-size: 18px;
+        padding: 6px;
+        white-space: nowrap;
+    }
+
+    .checkout-table input,
+    .checkout-table select {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .store-name {
+        font-size: 30px;
+    }
+
+    .receipt-slip {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    /* ✅ Slip Number & Page Number */
+    .receipt-id {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .page-number {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    .no-print, 
+    .checkout-btn, 
+    .remove-item-btn, 
+    .add-item-btn,
+    .action-column { 
+        display: none !important;
+    }
+}

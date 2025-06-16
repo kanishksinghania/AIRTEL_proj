@@ -1,0 +1,72 @@
+body {
+    background-color: #f5f5dc; /* Light cream/beige background */
+    font-family: Arial, sans-serif;
+    color: #5a3e2b; /* Dark brown text */
+}
+
+.login-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #8B4513; /* Brown heading */
+    margin-bottom: 30px;
+}
+
+/* Login Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    background-color: white; /* White background for form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #8B4513; /* Brown border */
+}
+
+/* Input Fields */
+input {
+    padding: 10px;
+    border: 1px solid #8B4513; /* Brown border */
+    border-radius: 5px;
+    background-color: #fdf8e6; /* Light beige input background */
+    color: #5a3e2b; /* Dark brown text */
+    width: 100%; /* Make input fields fit within the form */
+    box-sizing: border-box; /* Prevents overflow */
+}
+
+input::placeholder {
+    color: #a67c52; /* Light brown placeholder */
+}
+
+/* Login Button */
+button {
+    background-color: #8B4513; /* Brown button */
+    color: #f5f5dc; /* Light cream text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    width: 100%; /* Match button width to form */
+    box-sizing: border-box; /* Prevents overflow */
+}
+
+button:hover {
+    background-color: #6f4c3e; /* Darker brown on hover */
+}
+
+/* Error Message */
+.error-message {
+    color: #8B4513; /* Brown text */
+    background-color: #e6d8b8; /* Light beige background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #8B4513; /* Brown border */
+}

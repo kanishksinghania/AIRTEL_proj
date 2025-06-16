@@ -1,0 +1,51 @@
+/* Home.css */
+
+/* Set background and text color */
+body {
+  background-color: #f5f5dc; /* Light cream/beige background */
+  color: #5a3e2b; /* Dark brown text for readability */
+  font-family: Arial, sans-serif;
+}
+
+/* Home container */
+.home-container {
+  text-align: center; /* Center the text */
+  padding: 50px; /* Add some padding */
+}
+
+/* Welcome heading */
+.welcome-heading {
+  color: #8B4513; /* Brown for a professional look */
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px; /* Space below the heading */
+  text-transform: uppercase; /* Capitalized for a sleek design */
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+}
+
+/* Navigation buttons */
+.nav-button {
+  background-color: #8B4513; /* Brown button */
+  color: #f5f5dc; /* Light cream text */
+  border: 2px solid #8B4513; /* Brown border */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 10px 0; /* Space between buttons */
+  transition: all 0.3s ease-in-out;
+  width: 250px; /* Fixed width for buttons */
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background-color: #f5f5dc; /* Light beige on hover */
+  color: #8B4513; /* Brown text */
+  border: 2px solid #8B4513; /* Keep brown border */
+}

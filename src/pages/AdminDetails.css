@@ -1,0 +1,57 @@
+body {
+    background-color: #f5f5dc; /* Light beige background */
+    font-family: Arial, sans-serif; /* Clean font */
+    color: #333; /* Dark text for readability */
+}
+
+.admin-details-container {
+    text-align: center;
+    margin-top: 50px;
+    color: #8B4513; /* Brown text */
+}
+
+h1 {
+    color: #8B4513; /* Brown heading */
+    margin-bottom: 30px;
+}
+
+/* Table Styles */
+table {
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: white; /* White background for clarity */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Table Header */
+th {
+    background-color: #8B4513; /* Brown header */
+    color: #f5f5dc; /* Light beige text */
+    padding: 12px;
+    border: 1px solid #8B4513; /* Brown border */
+    font-weight: bold;
+}
+
+/* Table Data */
+th, td {
+    border: 1px solid #8B4513; /* Brown border */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Row Colors */
+tbody tr:nth-child(even) {
+    background-color: #e6d8b8; /* Light beige */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f5f5dc; /* Lighter cream */
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #d3b89a; /* Slightly darker beige on hover */
+}

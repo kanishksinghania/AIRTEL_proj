@@ -1,0 +1,38 @@
+body {
+    background-color: #140101; 
+    font-family: Arial, sans-serif; 
+}
+
+.login-page-container {
+    text-align: center;
+    margin-top: 50px;
+    color: white; 
+}
+
+h2 {
+    color: #e60000; 
+    margin-bottom: 30px;
+}
+
+.user-info-table {
+    margin: auto; 
+    width: 60%; 
+    border-collapse: collapse; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.user-info-table td {
+    border: 1px solid #e60000; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+.user-info-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05); 
+}
+
+.user-info-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}

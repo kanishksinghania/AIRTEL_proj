@@ -1,0 +1,32 @@
+/* Inventory.css */
+
+.inventory-container {
+    padding: 20px;
+    background-color: #f5f5dc; /* Light cream/beige background */
+    color: #333; /* Dark text for readability */
+}
+
+h2 {
+    color: #8B4513; /* Brown color for headings */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.inv-btn, .back-btn {
+    padding: 10px;
+    margin: 5px;
+    background-color: #8B4513; /* Brown background for buttons */
+    color: #f5f5dc; /* Light cream/beige text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s;
+}
+
+.inv-btn:hover, .back-btn:hover {
+    background-color: #6f4c3e; /* Darker brown on hover */
+}

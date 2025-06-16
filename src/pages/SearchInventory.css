@@ -1,0 +1,57 @@
+.search-inventory-container {
+    padding: 20px;
+    background-color: #f5f5dc; /* Light cream background */
+    color: #333; /* Dark text for readability */
+    min-height: 100vh;
+}
+
+h3 {
+    color: #8B4513; /* Brown title */
+}
+
+.search-bar {
+    margin-bottom: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #8B4513;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6f4c3e;
+}
+
+/* Table Styling */
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #8B4513;
+    text-align: center;
+}
+
+thead {
+    background-color: #8B4513;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e6d8b8;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f5f5dc;
+}

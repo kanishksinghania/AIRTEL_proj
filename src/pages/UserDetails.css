@@ -1,0 +1,43 @@
+body {
+    background-color: #140101; /* Dark background */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+.user-details-container {
+    text-align: center;
+    margin-top: 50px;
+    color: white; /* White text for contrast */
+}
+
+h1 {
+    color: #e60000; /* Airtel red */
+    margin-bottom: 30px;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse; /* Remove double borders */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Ensure rounded corners are visible */
+}
+
+th, td {
+    border: 1px solid #e60000; /* Airtel red border */
+    padding: 10px; /* Padding for table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #e60000; /* Airtel red header */
+    color: white; /* White text for header */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05); /* Light background for even rows */
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Highlight row on hover */
+}
